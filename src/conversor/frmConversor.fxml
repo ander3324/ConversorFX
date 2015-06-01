@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="159.0" prefWidth="394.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="conversor.frmConversorController">
+   <children>
+      <Label layoutX="55.0" layoutY="14.0" prefHeight="15.0" prefWidth="284.0" text="Ingrese la temperatura y pulse 'Convertir':" />
+      <Button fx:id="btnConvertir" defaultButton="true" layoutX="95.0" layoutY="110.0" mnemonicParsing="false" onAction="#convertir_Action" prefHeight="25.0" prefWidth="205.0" text="Convertir" />
+      <TextField fx:id="txfC" layoutX="29.0" layoutY="57.0" onKeyPressed="#limpiar_KeyPressed" prefHeight="25.0" prefWidth="150.0" promptText="Centigrados" />
+      <TextField fx:id="txfF" layoutX="214.0" layoutY="57.0" onKeyPressed="#limpiar_KeyPressed" prefHeight="25.0" prefWidth="150.0" promptText="Fahrenheit" />
+   </children>
+</AnchorPane>

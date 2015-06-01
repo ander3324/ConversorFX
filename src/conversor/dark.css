@@ -1,0 +1,53 @@
+/*
+Aplicación de ejemplo de uso de la tecnología JavaFX 2
+Realizado para el Curso de Programación Java
+Prof.: Ander 30 Oct 2014 - Desarrollado con fines unicamente didácticos. 
+*/
+/* 
+    Created on : 03/11/2014, 10:19:58
+    Author     : ander
+*/
+
+.root {
+    -fx-background-color: #666666;
+}
+
+
+
+.label {
+    -fx-font-size: 13px;
+    -fx-font-weight: normal;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.7),0,0,2,2);
+    }
+
+.text-field {
+    -fx-font-size: 13px;
+    -fx-font-family: "Segoe UI Semibold";
+}
+.text-field:focused{
+    -fx-border-color: #E1771E;  
+    -fx-border-width: 2px;
+    -fx-border-radius: 3px;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#666666,#333333);
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.6),5,0.0,0,1);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#333333,#666666);
+}
+
+.button:pressed{
+    
+    -fx-background-color: #E1771E;
+    
+}
+
+
+
